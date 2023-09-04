@@ -1,7 +1,7 @@
 const Menu = [
   {
     id: "1",
-    image: "../images/maggi.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKztn426nIIUh9cGqrcxcu_Dhb0z8HHIvlMSgwZixITxXCAGIvR77P5yZanw-wkDsrws&usqp=CAU",
     name: "Maggi",
     category: "Breakfast",
     price: "12₹",
@@ -11,7 +11,7 @@ const Menu = [
 
   {
     id: "2",
-    image: "../images/pakoda.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn3ghzh_jUe3hSuPlLOwfTXQpHgy45UXstDz-_qjtJJ4oaeZGXpAMLn9kr_mFjtDvCjSU&usqp=CAU",
     name: "Pakoda",
     category: "Evening",
     price: "20₹",
@@ -20,7 +20,7 @@ const Menu = [
   },
   {
     id: "3",
-    image: "../images/puri.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRntXa7WXeRyWQjrD2z-2Q9Z7fcc0cpalULy9KIwBBygT38xLD0E9MhXHMjtXn-b4gpRVI&usqp=CAU",
     name: "Puri",
     category: "Breakfast",
     price: "10₹",
@@ -29,7 +29,7 @@ const Menu = [
   },
   {
     id: "4",
-    image: "../images/chola.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLrNq5xxDO2zvQjMc8GpxchQFq0QSLJXrwqOgBwrIiZzss32fAjsQYWN6DnLPcGSfIXU&usqp=CAU",
     name: "Chola-Bhatura",
     category: "Lunch",
     price: "50₹",
@@ -38,7 +38,7 @@ const Menu = [
   },
   {
     id: "5",
-    image: "../images/pizza.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
     name: "Pizza",
     category: "Evening",
     price: "80₹",
@@ -47,7 +47,7 @@ const Menu = [
   },
   {
     id: "6",
-    image: "../images/nonvegthali.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyx3-mYnu4osx8RFLvvTDrMnP2bRlHElA9Hh1CYz--G1fqlKsbjYsprLiU0ZvTqtLNZE&usqp=CAU",
     name: "Thali",
     category: "Dinner",
     price: "180₹",
@@ -56,7 +56,7 @@ const Menu = [
   },
   {
     id: '7',
-    image: "../images/sweet.jpg",
+    image: "https://m.recipes.timesofindia.com/photo/96538885/96538885.jpg",
     name: "Sweets",
     category: "Dinner",
     price: "60₹",
@@ -65,7 +65,7 @@ const Menu = [
   },
   {
     id: "8",
-    image: "../images/rajmarice.jpg",
+    image: "https://i1.wp.com/notoutofthebox.in/wp-content/uploads/2018/07/rc9.jpg",
     name: "Rajma-Rice",
     category: "Lunch",
     price: "60₹",
@@ -74,7 +74,7 @@ const Menu = [
   },
   {
     id: "9",
-    image: "../images/samosa.jpg",
+    image: "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Indian-Punjabi-Samosa-Recipe.jpg",
     name: "Samosa",
     category: "Evening",
     price: "10₹",
@@ -436,5 +436,14 @@ const Menu = [
     "price": 169,
     "rate": 4,
   },
+  {
+    id: "1",
+    image: "../images/maggi.jpg",
+    name: "Maggi",
+    category: "Breakfast",
+    price: "12₹",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis similique maxime voluptates neque illum? Veniam nemo, consequatur ducimus et quisquam architecto. Mollitia reprehenderit",
+  }
 ]
 export default Menu;

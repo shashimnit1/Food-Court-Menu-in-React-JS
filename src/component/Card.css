@@ -1,36 +1,68 @@
+
+.CardOuter {
+  margin: 1rem;
+  background-color: rgb(52, 59, 59);
+  color: #fff;
+  min-width: 20rem;
+  width: 33rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 1.0rem 2.0rem rgba(200, 81, 81, 0.19), 0 .6rem .6rem rgba(0, 0, 0, 0.23);
+  transition: transform .3s;
+  border: 2pt solid rgb(86, 221, 23);
+}
+.CardOuter:hover {
+  
+  box-shadow: .1rem .1rem 1.0rem rgb(121, 111, 236);
+  transform: scale(1.08);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
 .img {
-  width: 10vw;
-  height: 160pt;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  width: 11rem;
+  min-width: 10rem;
+  height: 14.0rem;
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
   color: white;
-  font-size: 50px;
-  box-shadow: inset 0 -9em 10em rgba(0, 0, 0, 0.1);
+  font-size: 5.0rem;
+  box-shadow: inset 0 -.9rem 1.0rem rgba(0, 0, 0, 0.1);
 
 }
 
 .txtArea {
+  color: #fff;
+  text-align: justify;
   resize: none;
-  width: 103%;
-  height: 70px;
+  width: 17rem;
+  height: 5.0rem;
   border: none;
   background-color: transparent;
 }
-
+.Content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 button {
   background-image: linear-gradient(#0dccea, #0d70ea);
-  width: 50px;
-  height: 35px;
+  width: 5.0rem;
+  height: 3.5rem;
   border: 0;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  border-radius: .4rem;
+  box-shadow: rgba(0, 0, 0, .3) 0 .5rem 1.5rem;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   font-family: Montserrat, sans-serif;
-  font-size: .8em;
-  margin: 5px;
-  padding: 2px 2px;
+  font-size: .8rem;
+  margin: .5rem;
+  padding: .2rem .2rem;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
@@ -42,44 +74,20 @@ button:active {
   font-weight: bold;
 }
 
-.CardOuter {
-  border: solid black 2pt;
-  background-color: #b3b8ec;
-  width: 200pt;
-  margin: 5pt;
-  height: 300pt;
-  text-align: justify;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 12pt;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  padding: 4pt;
-  margin: 50pt;
-  justify-content: space-between;
-  background-color: #60A5FA;
-  transition: transform .3s;
-}
 
-.CardOuter:hover {
-  
-  box-shadow: 1pt 1pt 10pt rgb(121, 111, 236);
-  transform: scale(1.08);
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 .card:hover{
   transition: transform .3s;
   transform: scale(1.08);
-  box-Shadow: 5px 5px 10px 0px #dd6c20
+  box-Shadow: .5rem .5rem 1.0rem 0rem #dd6c20
   
 }
 
 .title {
-  //border: 2pt solid black;
-  font-size: 25px;
+  //border: .2rem solid black;
+  font-size: 2.5rem;
   font-family: 'Oswald', sans-serif;
   color: white;
-  text-shadow: 1pt 1pt 6pt black;
+  text-shadow: .1rem .1rem .6rem black;
   text-align: left;
   line-height: 1;
 }
@@ -87,18 +95,18 @@ button:active {
 .price {
  
   background-image: "{image}";
-  font-size: 18px;
+  font-size: 1.8rem;
   font-family: 'Oswald', sans-serif;
-  color: rgb(136, 8, 8);
-  text-shadow: 0pt 1pt 10pt black;
+  color: rgb(237, 230, 230);
+  text-shadow: 0rem .1rem 1.0rem rgb(247, 112, 112);
   
 
 }
 
 .SubText {
   color: #f04115;
-  font-size: 15px;
-  text-shadow: 0pt 0pt 0pt black;
+  font-size: 1.5rem;
+  text-shadow: 0rem 0rem 0rem black;
 
 }
 

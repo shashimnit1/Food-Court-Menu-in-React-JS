@@ -19,7 +19,7 @@ const App=()=> {
   const FilterMenu = (SelectedCategory) => {
     const FilterList = Menu.filter((CurrentElement) => { return (CurrentElement.category === SelectedCategory); })
     //console.log(FilterList);
-    console.log("heelo")
+    
     SetMenuData(FilterList);
   
   }

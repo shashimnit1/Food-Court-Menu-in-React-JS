@@ -1,72 +1,136 @@
-.CardContainer{
-  width: 100vw; 
-  height: fit-content;
-  //border: 2pt solid rgb(196, 248, 9);
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  flex-wrap: wrap;
-  gap: 10px;
+html {
+  font-size: 62.5%;
+}
+
+/* Smallest Devices */
+@media screen and (max-width: 57.5rem) {
+  html {
+    font-size: 30%;
+  }
+
+  /* text {
+    font-size: 10px;
+  } */
+}
+
+/* Small devices (landscape phones, 57.6rem and up) */
+@media screen and (min-width: 57.6rem) {
+  html {
+    font-size: 48%;
+  }
+
+  /* text {
+    font-size: 20px;
+  } */
+}
+
+/* Medium devices (tablets, 76.8rem and up) */
+@media screen and (min-width: 76.8rem) {
+  html {
+    font-size: 64%;
+  }
+  /* text {
+    font-size: 20px;
+  } */
+}
+
+/* Large devices (desktops, 99.2rem and up) */
+@media screen and (min-width: 99.2rem) {
+  html {
+    font-size: 82.66%;
+  }
+
+  /* text {
+    font-size: 10px;
+  } */
+}
+
+/* Extra large devices (large desktops, 120.0rem and up) */
+@media (min-width: 120.0rem) {
+  html {
+    font-size: 100%;
+  }
+  /* text {
+    font-size: 30px;
+  } */
+
   
 }
 
-text{
-  
-  font-size: 35px;
-   font-family: 'Oswald', sans-serif;
+
+body {
+  background-image: url("https://t4.ftcdn.net/jpg/04/35/24/61/360_F_435246116_k2k9w9P9FPGlxV3xel53ljxd34tjh7BH.jpg");
+ 
+  background-attachment: fixed;
+}
+.CardContainer {
+  width: 100vw;
+  height: fit-content;
+  //border: .2rem solid rgb(196, 248, 9);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.0rem;
+
+}
+
+text {
+  font-size: 5rem;
+  font-family: 'Oswald', sans-serif;
   color: white;
   font-weight: bold;
-  text-shadow: 1pt 2pt 10pt black;
-  -webkit-text-stroke-width: 1px;
+  text-shadow: .1rem .2rem 1.0rem black;
+  -webkit-text-stroke-width: .1rem;
   -webkit-text-stroke-color: black;
-  //border: 2pt solid black;  ;
+  //border: .2rem solid black;  ;
 }
-.NavBar{
-  line-height: 8pt;
-  //position: fixed;
-  //position: absolute;
+
+.NavBar {
+  line-height: .8rem;
+  
   background-color: aquamarine;
-  margin-top: 10pt;
+  margin-top: 2rem;
 }
 
-.NavBarButtons{
+.NavBarButtons {
   /* position: fixed; */
-  width: 100vw; 
+  width: 100vw;
   height: fit-content;
-  //border: 2pt solid rgb(22, 23, 22);
+  //border: .2rem solid rgb(22, 23, 22);
   display: flex;
+  
   flex-direction: row;
-  justify-content:center;
-  
-  
-  //flex-wrap: wrap;
-  //gap: 5px;
+  justify-content: center;
+
+
+  flex-wrap: wrap;
+  //gap: .5rem;
 }
 
-.NavButton{
+.NavButton {
   float: left;
   background: none;
-  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-width: .02rem;
   -webkit-text-stroke-color: black;
   border: none;
-  margin-bottom: 5pt;
+  margin-bottom: .5rem;
   width: fit-content;
   display: block;
-  font-size: 20px;
+  font-size: 2.5rem;
   outline: none;
   position: relative;
   transition: 0.3s;
-  padding: 2px;
+  padding: .2rem;
   box-shadow: none;
   color: #000;
-  
-  
-  text-shadow: 1pt 2pt 10pt black;
+  text-shadow: 0rem 0rem 1.5rem black;
 }
+
 .NavButton:before {
   content: '';
-  border-bottom: 1px solid #000;
-  padding: 0 10px;
+  border-bottom: .1rem solid #000;
+  padding: 0 1.0rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -75,17 +139,19 @@ text{
   width: 0;
   transition: 0.3s;
 }
+
 .NavButton:hover:before {
   width: 100%;
   padding: 0;
-  
+
 }
+
 .NavButton:active {
   background: #000;
   color: #fff;
   transition: none;
 }
-.NavButton:hover{
-  font-size: 18pt;
-}
 
+.NavButton:hover {
+  font-size: 1.8rem;
+}
